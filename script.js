@@ -16,3 +16,9 @@ function subtractNumbers (parameter1,parameter2) {
 }
 
 subtractNumbers(1,2);
+
+first_value = 1;
+second_value = 2;
+thrid_value  = 3;
+result = first_value + second_value - thrid_value;
+print(result);
