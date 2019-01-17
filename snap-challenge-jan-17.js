@@ -1,3 +1,8 @@
+//CHALLENGE​
+// snap-typeof()
+//
+// write a function with multiple if blocks that checks the type of the variable and returns a string with what type the variable is.
+
 /*
 function isString(x) {
 	return typeof x === 'string' || value instanceof String;
@@ -6,6 +11,7 @@ function isString(x) {
 console.log(isString("spock"));
 */
 ////////////////////////////////////////////
+
 function variableCheck(num1) {
 	if(typeof num1 === 'number') {
 		document.write(num1 + " is a number!");
