@@ -73,3 +73,4 @@ let sum = (array) => (array.length===0) ? 0 : array[0]+sum(array.slice(1));
 document.write(sum([0,1,2,3,5,8,13,21,34],0));
 //If you put array.slice(1,3) you go up to the 4th iteration (index of 3), but not including it thus this would result
 // in 0+1+2 = 3 rather than 0+1+2+3 = 6.
+
