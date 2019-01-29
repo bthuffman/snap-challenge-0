@@ -1,4 +1,4 @@
-array =
+arrayOne =
 [{
 	"id": 1,
 	"name": "Leanne Graham",
@@ -191,7 +191,7 @@ array =
 	}
 }];
 
-newArray = array.map(index => {
+newArray = arrayOne.map(index => {
 	return {id:index.id, name:index.name, email:index.email, phone:index.phone,website:index.website,company:index.company}
 });
 

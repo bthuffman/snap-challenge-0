@@ -192,14 +192,15 @@ newUsers =
 			"bs": "target end-to-end models"
 		}
 	}];
-// let newUsers = users;
+let newUsers = users;
 
+/*
 newUsers = new Map();
 
 newUsers.clear();
 console.log(newUsers);
 console.log(users);
-
+*/
 /*
 let result = newUsers.map(function(value,index,array){
 	delete newUsers.address;
@@ -218,13 +219,12 @@ let length = newUsers.map(function(item,index,array){
 });
 document.write(length);
 */
-/*
-let nameLengths = newUsers.map(users => {
+
+newUsers.map(users => {
 	delete.users.address;
-	return users;
 });
 
-console.log(nameLengths);
+console.log(newUsers);
 */
 //
 // newUsers.map(users => {
