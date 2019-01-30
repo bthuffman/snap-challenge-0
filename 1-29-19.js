@@ -1,6 +1,6 @@
 console.log("Hello");
 
-newUsers =
+users =
 	[{
 		"id": 1,
 		"name": "Leanne Graham",
@@ -221,11 +221,11 @@ document.write(length);
 */
 
 newUsers.map(users => {
-	delete.users.address;
+	delete users.address;
 });
 
 console.log(newUsers);
-*/
+
 //
 // newUsers.map(users => {
 // 	delete users.address;
