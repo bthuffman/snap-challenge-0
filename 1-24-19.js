@@ -39,7 +39,7 @@ function multiplyArray (arr) {
 
 
 console.log(multiplyArray(myArray));
-
+//RETURNS CORRECT VALUE OF 2227680
 //Callback function, a function passed into another as an argument which is invoked inside the other function. Many more to come.
 //George's solution
 
@@ -53,10 +53,11 @@ value1 = array.forEach(
 		console.log(total);
 	}
 );
+//RETURNS CORRECT VALUE OF 2227680
 //this does the same as above, but in one line
 value2 = array.forEach(index => total1 = total1 * index);
 console.log(total1);
-
+//RETURNS CORRECT VALUE OF 2227680
 //Note the "Fat arrow operator" i.e. "=>" skips the requirement of defining a function. Set parameters to the left of it,
 //statements to the right. implicit return with this, as long as only one statement. Otherwise more than one statement requires
 // the use of return (ex return total1 = total1 * index;)

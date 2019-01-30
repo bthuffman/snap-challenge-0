@@ -1,3 +1,4 @@
+//also see Will's solution which is posted on code pen
 console.log("Hello");
 
 users =

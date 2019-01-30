@@ -239,7 +239,9 @@ newUsers =  users;
 
 newUsers.forEach(users => {
 	delete users.company;
+	return users;
 });
 //Recall without the fat arrow operator would create a function
 
-console.table(newUser);
+console.log(users);
+console.table(newUsers);
