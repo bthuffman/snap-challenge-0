@@ -13,7 +13,7 @@ return `${index.title}
 ${index.body}`});
 console.log(newArray);
 // Function essentially is going to object format to string format with the array.prototype.toString()
-//this console.log will cosole log the first 3 
-console.log(array[1].title);
+//this console.log will cosole log the first 3  ACTUALLY NO IT DOESN'T
+//console.log(array[1].title);
 
 //
